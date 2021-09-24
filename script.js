@@ -25,7 +25,7 @@ function win(userChoice, computerChoice){
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
     const userScript = "user".fontsize(3).sub(); //subscripting user
-    const compScript = "user".fontsize(3).sub(); //subcripting user 
+    const compScript = "comp".fontsize(3).sub(); //subcripting user 
     result_p.innerHTML = `${convertToWord(userChoice)}${userScript} beats ${convertToWord(computerChoice)}${compScript}!   You WIN!!!`;
     document.getElementById(userChoice).classList.add("green-glow");
     setTimeout(() => document.getElementById(userChoice).classList.remove("green-glow"), 300); // es6 code replace function() by () and put =>
@@ -35,7 +35,7 @@ function lose(userChoice, computerChoice){
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
     const userScript = "user".fontsize(3).sub(); //subscripting user
-    const compScript = "user".fontsize(3).sub(); //subcripting user 
+    const compScript = "comp".fontsize(3).sub(); //subcripting user 
     result_p.innerHTML = `${convertToWord(computerChoice)}${compScript} beats ${convertToWord(userChoice)}${userScript}!   You LOSE!!!`;
     document.getElementById(userChoice).classList.add("red-glow");
     setTimeout(() => document.getElementById(userChoice).classList.remove("red-glow"), 300);
