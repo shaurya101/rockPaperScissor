@@ -3,10 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Asap, sans-serif;
 }
 body{
     background-color: #24272E;
+    font-family: 'Asap', sans-serif;
 }
 header{
     padding: 20px;
